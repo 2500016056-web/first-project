@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "framework": "laravel",
+    "functions": {
+        "api/*.php": {
+            "runtime": "vercel-php@latest"
+        }
+    },
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/public/index.php"
+        }
+    ]
+}
